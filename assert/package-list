@@ -1,25 +1,21 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:io.github.kotools.assert////PointingToDeclaration/assert/io.github.kotools.assert/index.html
-$dokka.location:io.github.kotools.assert//assertEquals/TypeParam(bounds=[kotlin.Any])#TypeParam(bounds=[kotlin.Any])#kotlin.Function2[TypeParam(bounds=[kotlin.Any]),TypeParam(bounds=[kotlin.Any]),kotlin.String]/PointingToDeclaration/assert/io.github.kotools.assert/assert-equals.html
 $dokka.location:io.github.kotools.assert//assertEquals/TypeParam(bounds=[kotlin.Any])#TypeParam(bounds=[kotlin.Any])#kotlin.String/PointingToDeclaration/assert/io.github.kotools.assert/assert-equals.html
 $dokka.location:io.github.kotools.assert//assertEquals/TypeParam(bounds=[kotlin.Any])#TypeParam(bounds=[kotlin.Any])/PointingToDeclaration/assert/io.github.kotools.assert/assert-equals.html
 $dokka.location:io.github.kotools.assert//assertFails/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/assert/io.github.kotools.assert/assert-fails.html
 $dokka.location:io.github.kotools.assert//assertFails/#kotlin.String#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/assert/io.github.kotools.assert/assert-fails.html
 $dokka.location:io.github.kotools.assert//assertFailsWith/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/assert/io.github.kotools.assert/assert-fails-with.html
 $dokka.location:io.github.kotools.assert//assertFailsWith/#kotlin.String#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/assert/io.github.kotools.assert/assert-fails-with.html
-$dokka.location:io.github.kotools.assert//assertNotEquals/TypeParam(bounds=[kotlin.Any])#TypeParam(bounds=[kotlin.Any])#kotlin.Function2[TypeParam(bounds=[kotlin.Any]),TypeParam(bounds=[kotlin.Any]),kotlin.String]/PointingToDeclaration/assert/io.github.kotools.assert/assert-not-equals.html
 $dokka.location:io.github.kotools.assert//assertNotEquals/TypeParam(bounds=[kotlin.Any])#TypeParam(bounds=[kotlin.Any])#kotlin.String/PointingToDeclaration/assert/io.github.kotools.assert/assert-not-equals.html
 $dokka.location:io.github.kotools.assert//assertNotEquals/TypeParam(bounds=[kotlin.Any])#TypeParam(bounds=[kotlin.Any])/PointingToDeclaration/assert/io.github.kotools.assert/assert-not-equals.html
 $dokka.location:io.github.kotools.assert//assertNotNull/#kotlin.Function0[TypeParam(bounds=[kotlin.Any])?]/PointingToDeclaration/assert/io.github.kotools.assert/assert-not-null.html
 $dokka.location:io.github.kotools.assert//assertNotNull/#kotlin.String#kotlin.Function0[TypeParam(bounds=[kotlin.Any])?]/PointingToDeclaration/assert/io.github.kotools.assert/assert-not-null.html
 $dokka.location:io.github.kotools.assert//assertNotNull/TypeParam(bounds=[kotlin.Any])?#/PointingToDeclaration/assert/io.github.kotools.assert/assert-not-null.html
-$dokka.location:io.github.kotools.assert//assertNotNull/TypeParam(bounds=[kotlin.Any])?#kotlin.Function0[kotlin.String]/PointingToDeclaration/assert/io.github.kotools.assert/assert-not-null.html
 $dokka.location:io.github.kotools.assert//assertNotNull/TypeParam(bounds=[kotlin.Any])?#kotlin.String/PointingToDeclaration/assert/io.github.kotools.assert/assert-not-null.html
 $dokka.location:io.github.kotools.assert//assertNull/#kotlin.Function0[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/assert/io.github.kotools.assert/assert-null.html
 $dokka.location:io.github.kotools.assert//assertNull/#kotlin.String#kotlin.Function0[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/assert/io.github.kotools.assert/assert-null.html
 $dokka.location:io.github.kotools.assert//assertNull/TypeParam(bounds=[kotlin.Any?])#/PointingToDeclaration/assert/io.github.kotools.assert/assert-null.html
-$dokka.location:io.github.kotools.assert//assertNull/TypeParam(bounds=[kotlin.Any?])#kotlin.Function0[kotlin.String]/PointingToDeclaration/assert/io.github.kotools.assert/assert-null.html
 $dokka.location:io.github.kotools.assert//assertNull/TypeParam(bounds=[kotlin.Any?])#kotlin.String/PointingToDeclaration/assert/io.github.kotools.assert/assert-null.html
 io.github.kotools.assert
 
