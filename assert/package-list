@@ -17,5 +17,20 @@ $dokka.location:io.github.kotools.assert//assertNull/#kotlin.Function0[TypeParam
 $dokka.location:io.github.kotools.assert//assertNull/#kotlin.String#kotlin.Function0[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/assert/io.github.kotools.assert/assert-null.html
 $dokka.location:io.github.kotools.assert//assertNull/TypeParam(bounds=[kotlin.Any?])#/PointingToDeclaration/assert/io.github.kotools.assert/assert-null.html
 $dokka.location:io.github.kotools.assert//assertNull/TypeParam(bounds=[kotlin.Any?])#kotlin.String/PointingToDeclaration/assert/io.github.kotools.assert/assert-null.html
+$dokka.location:kotools.assert////PointingToDeclaration/assert/kotools.assert/index.html
+$dokka.location:kotools.assert//assertEquals/TypeParam(bounds=[kotlin.Any?])#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/assert/kotools.assert/assert-equals.html
+$dokka.location:kotools.assert//assertFails/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/assert/kotools.assert/assert-fails.html
+$dokka.location:kotools.assert//assertFailsWith/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/assert/kotools.assert/assert-fails-with.html
+$dokka.location:kotools.assert//assertFalse/#kotlin.Function0[kotlin.Boolean]/PointingToDeclaration/assert/kotools.assert/assert-false.html
+$dokka.location:kotools.assert//assertFalse/kotlin.Boolean#/PointingToDeclaration/assert/kotools.assert/assert-false.html
+$dokka.location:kotools.assert//assertNotEquals/TypeParam(bounds=[kotlin.Any?])#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/assert/kotools.assert/assert-not-equals.html
+$dokka.location:kotools.assert//assertNotNull/#kotlin.Function0[TypeParam(bounds=[kotlin.Any?])?]/PointingToDeclaration/assert/kotools.assert/assert-not-null.html
+$dokka.location:kotools.assert//assertNotNull/TypeParam(bounds=[kotlin.Any?])?#/PointingToDeclaration/assert/kotools.assert/assert-not-null.html
+$dokka.location:kotools.assert//assertNull/#kotlin.Function0[TypeParam(bounds=[kotlin.Any?])?]/PointingToDeclaration/assert/kotools.assert/assert-null.html
+$dokka.location:kotools.assert//assertNull/TypeParam(bounds=[kotlin.Any?])?#/PointingToDeclaration/assert/kotools.assert/assert-null.html
+$dokka.location:kotools.assert//assertPass/#kotlin.Function0[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/assert/kotools.assert/assert-pass.html
+$dokka.location:kotools.assert//assertTrue/#kotlin.Function0[kotlin.Boolean]/PointingToDeclaration/assert/kotools.assert/assert-true.html
+$dokka.location:kotools.assert//assertTrue/kotlin.Boolean#/PointingToDeclaration/assert/kotools.assert/assert-true.html
 io.github.kotools.assert
+kotools.assert
 
