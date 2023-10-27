@@ -123,7 +123,6 @@ publishing {
         }
     }
     publications {
-        @Suppress("UNUSED_VARIABLE")
         val kotlinMultiplatform by getting(MavenPublication::class) {
             groupId = project.group.toString()
             artifactId = project.name
