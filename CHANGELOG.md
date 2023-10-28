@@ -100,7 +100,9 @@ _Release date: 2022-02-12 | Commits: [v1.0.0...v1.1.0]._
 
 - Failure assertions with `assertFails` (issue [#1]).
 
-## Version 1.0.0 - 2022/02/12
+## v1.0.0
+
+_Release date: 2022-02-12 | Commits: [v0.0.0...v1.0.0]._
 
 ### Added
 
@@ -129,3 +131,4 @@ _Release date: 2022-02-12 | Commits: [v1.0.0...v1.1.0]._
 [v1.2.0...v2.0.0]: https://github.com/kotools/assert/compare/v1.2.0...v2.0.0
 [v1.1.0...v1.2.0]: https://github.com/kotools/assert/compare/v1.1.0...v1.2.0
 [v1.0.0...v1.1.0]: https://github.com/kotools/assert/compare/v1.0.0...v1.1.0
+[v0.0.0...v1.0.0]: https://github.com/kotools/assert/compare/v0.0.0...v1.0.0
