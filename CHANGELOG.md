@@ -1,3 +1,8 @@
+<!--
+    Copyright 2022-2023 Loïc Lamarque.
+    Use of this source code is governed by the MIT license.
+-->
+
 # Changelog
 
 All notable changes to Kotools Assert will be documented in this file.
