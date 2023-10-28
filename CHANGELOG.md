@@ -24,15 +24,14 @@ _Release date: 2022-09-10 | Commits: [v3.0.1...v3.0.2]._
 
 - Fix the publication of artifacts for macOS and MinGW platforms (issue [#33]).
 
-## Version 3.0.1 - 2022/09/09
+## v3.0.1
 
-### All platforms
+_Release date: 2022-09-09 | Commits: [v3.0.0...v3.0.1]._
 
-#### Fixed
+### Fixed
 
-Versioning annotations for keeping the first version of Kotools Assert where
-a given declaration has appeared
-([#26](https://github.com/kotools/assert/issues/26)).
+- Correct value in versioning annotations for indicating the first version of
+  Kotools Assert where a given declaration has appeared (issue [#26]).
 
 ## Version 3.0.0 - 2022/09/07
 
@@ -112,7 +111,9 @@ Failure assertions with `assertFails`
 - Equality assertions with `assertEquals` and `assertNotEquals`.
 - Nullability assertions with `assertNull` and `assertNotNull`.
 
+[#26]: https://github.com/kotools/assert/issues/26
 [#33]: https://github.com/kotools/assert/issues/33
 [keep-a-changelog]: https://keepachangelog.com/en
 [semantic-versioning]: https://semver.org
 [v3.0.1...v3.0.2]: https://github.com/kotools/assert/compare/v3.0.1...v3.0.2
+[v3.0.0...v3.0.1]: https://github.com/kotools/assert/compare/v3.0.0...v3.0.1
