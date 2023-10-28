@@ -67,12 +67,13 @@ _Release date: 2022-08-03 | Commits: [v2.0.0...v2.1.0]._
 
 - Assertions in the `io.github.kotools.assert` package (issue [#15]).
 
-## Version 2.0.0 - 2022/04/11
+## v2.0.0
+
+_Release date: 2022-04-11 | Commits: [v1.2.0...v2.0.0]._
 
 ### Removed
 
-Equality and nullability assertions with lazy messages
-([#11](https://github.com/kotools/assert/issues/11)).
+- Equality and nullability assertions with lazy messages (issue [#11]).
 
 ## Version 1.2.0 - 2022/04/09
 
@@ -105,6 +106,7 @@ Failure assertions with `assertFails`
 - Equality assertions with `assertEquals` and `assertNotEquals`.
 - Nullability assertions with `assertNull` and `assertNotNull`.
 
+[#11]: https://github.com/kotools/assert/issues/11
 [#15]: https://github.com/kotools/assert/issues/15
 [#16]: https://github.com/kotools/assert/issues/16
 [#19]: https://github.com/kotools/assert/issues/19
@@ -120,3 +122,4 @@ Failure assertions with `assertFails`
 [v3.0.0...v3.0.1]: https://github.com/kotools/assert/compare/v3.0.0...v3.0.1
 [v2.1.0...v3.0.0]: https://github.com/kotools/assert/compare/v2.1.0...v3.0.0
 [v2.0.0...v2.1.0]: https://github.com/kotools/assert/compare/v2.0.0...v2.1.0
+[v1.2.0...v2.0.0]: https://github.com/kotools/assert/compare/v1.2.0...v2.0.0
