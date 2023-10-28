@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to Kotools Assert will be documented in this file.
 
 > The format of this file is based on [Keep a Changelog][keep-a-changelog] and
 > this project adheres to [Semantic Versioning][semantic-versioning].
