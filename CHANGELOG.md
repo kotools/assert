@@ -75,22 +75,22 @@ _Release date: 2022-04-11 | Commits: [v1.2.0...v2.0.0]._
 
 - Equality and nullability assertions with lazy messages (issue [#11]).
 
-## Version 1.2.0 - 2022/04/09
+## v1.2.0
+
+_Release date: 2022-04-09 | Commits: [v1.1.0...v1.2.0]._
 
 ### Changed
 
-Split specific failure assertions `assertFailsWith` from untyped failure
-assertions `assertFails` ([#5](https://github.com/kotools/assert/issues/5)).
+- Split specific failure assertions `assertFailsWith` from untyped failure
+  assertions `assertFails` (issue [#5]).
 
 ### Deprecated
 
-Equality and nullability assertions with lazy messages
-([#5](https://github.com/kotools/assert/issues/5)).
+- Equality and nullability assertions with lazy messages (issue [#5]).
 
 ### Removed
 
-Default messages from equality assertions
-([#10](https://github.com/kotools/assert/issues/10)).
+- Default messages from equality assertions (issue [#10]).
 
 ## Version 1.1.0 - 2022/02/12
 
@@ -106,6 +106,8 @@ Failure assertions with `assertFails`
 - Equality assertions with `assertEquals` and `assertNotEquals`.
 - Nullability assertions with `assertNull` and `assertNotNull`.
 
+[#5]: https://github.com/kotools/assert/issues/5
+[#10]: https://github.com/kotools/assert/issues/10
 [#11]: https://github.com/kotools/assert/issues/11
 [#15]: https://github.com/kotools/assert/issues/15
 [#16]: https://github.com/kotools/assert/issues/16
@@ -123,3 +125,4 @@ Failure assertions with `assertFails`
 [v2.1.0...v3.0.0]: https://github.com/kotools/assert/compare/v2.1.0...v3.0.0
 [v2.0.0...v2.1.0]: https://github.com/kotools/assert/compare/v2.0.0...v2.1.0
 [v1.2.0...v2.0.0]: https://github.com/kotools/assert/compare/v1.2.0...v2.0.0
+[v1.1.0...v1.2.0]: https://github.com/kotools/assert/compare/v1.1.0...v1.2.0
