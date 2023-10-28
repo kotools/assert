@@ -2,9 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
-> The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0)
-> and this project adheres to
-> [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+> The format of this file is based on [Keep a Changelog][keep-a-changelog] and
+> this project adheres to [Semantic Versioning][semantic-versioning].
 
 ## Types of changes
 
@@ -15,14 +14,15 @@ All notable changes to this project will be documented in this file.
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
 
-## Work in progress
+## Unreleased
 
-## Version 3.0.2 - 2022/09/10
+## v3.0.2
 
-### Native
+_Release date: 2022-09-10 | Commits: [v3.0.1...v3.0.2]._
 
-Fix delivery and deployment for macOS and Windows platforms
-([#33](https://github.com/kotools/assert/issues/33)).
+### Fixed
+
+- Fix the publication of artifacts for macOS and MinGW platforms (issue [#33]).
 
 ## Version 3.0.1 - 2022/09/09
 
@@ -111,3 +111,8 @@ Failure assertions with `assertFails`
 
 - Equality assertions with `assertEquals` and `assertNotEquals`.
 - Nullability assertions with `assertNull` and `assertNotNull`.
+
+[#33]: https://github.com/kotools/assert/issues/33
+[keep-a-changelog]: https://keepachangelog.com/en
+[semantic-versioning]: https://semver.org
+[v3.0.1...v3.0.2]: https://github.com/kotools/assert/compare/v3.0.1...v3.0.2
