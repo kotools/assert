@@ -20,7 +20,7 @@ All notable changes to this project will be documented in this file.
 
 - Reformat CHANGELOG documentation (issue [#39]).
 
-## v3.0.2
+## v3.0.2 <a id="v3.0.2"></a>
 
 _Release date: 2022-09-10 | Commits: [v3.0.1...v3.0.2]._
 
@@ -29,7 +29,7 @@ _Release date: 2022-09-10 | Commits: [v3.0.1...v3.0.2]._
 - Correct the publication of artifacts for macOS and MinGW platforms (issue
   [#33]).
 
-## v3.0.1
+## v3.0.1 <a id="v3.0.1"></a>
 
 _Release date: 2022-09-09 | Commits: [v3.0.0...v3.0.1]._
 
@@ -38,7 +38,7 @@ _Release date: 2022-09-09 | Commits: [v3.0.0...v3.0.1]._
 - Correct value in versioning annotations for indicating the first version of
   Kotools Assert where a given declaration has appeared (issue [#26]).
 
-## v3.0.0
+## v3.0.0 <a id="v3.0.0"></a>
 
 _Release date: 2022-09-07 | Commits: [v2.1.0...v3.0.0]._
 
@@ -55,7 +55,7 @@ _Release date: 2022-09-07 | Commits: [v2.1.0...v3.0.0]._
 
 - Deprecated assertions in the `io.github.kotools.assert` package (issue [#19]).
 
-## v2.1.0
+## v2.1.0 <a id="v2.1.0"></a>
 
 _Release date: 2022-08-03 | Commits: [v2.0.0...v2.1.0]._
 
@@ -71,7 +71,7 @@ _Release date: 2022-08-03 | Commits: [v2.0.0...v2.1.0]._
 
 - Assertions in the `io.github.kotools.assert` package (issue [#15]).
 
-## v2.0.0
+## v2.0.0 <a id="v2.0.0"></a>
 
 _Release date: 2022-04-11 | Commits: [v1.2.0...v2.0.0]._
 
@@ -79,7 +79,7 @@ _Release date: 2022-04-11 | Commits: [v1.2.0...v2.0.0]._
 
 - Equality and nullability assertions with lazy messages (issue [#11]).
 
-## v1.2.0
+## v1.2.0 <a id="v1.2.0"></a>
 
 _Release date: 2022-04-09 | Commits: [v1.1.0...v1.2.0]._
 
@@ -96,7 +96,7 @@ _Release date: 2022-04-09 | Commits: [v1.1.0...v1.2.0]._
 
 - Default messages from equality assertions (issue [#10]).
 
-## v1.1.0
+## v1.1.0 <a id="v1.1.0"></a>
 
 _Release date: 2022-02-12 | Commits: [v1.0.0...v1.1.0]._
 
@@ -104,7 +104,7 @@ _Release date: 2022-02-12 | Commits: [v1.0.0...v1.1.0]._
 
 - Failure assertions with `assertFails` (issue [#1]).
 
-## v1.0.0
+## v1.0.0 <a id="v1.0.0"></a>
 
 _Release date: 2022-02-12 | Commits: [v0.0.0...v1.0.0]._
 
