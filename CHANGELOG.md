@@ -16,6 +16,10 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Changed
+
+- Reformat CHANGELOG documentation (issue [#39]).
+
 ## v3.0.2
 
 _Release date: 2022-09-10 | Commits: [v3.0.1...v3.0.2]._
@@ -120,6 +124,7 @@ _Release date: 2022-02-12 | Commits: [v0.0.0...v1.0.0]._
 [#21]: https://github.com/kotools/assert/issues/21
 [#26]: https://github.com/kotools/assert/issues/26
 [#33]: https://github.com/kotools/assert/issues/33
+[#39]: https://github.com/kotools/assert/issues/39
 [keep-a-changelog]: https://keepachangelog.com/en
 [kotlin/js]: https://kotlinlang.org/docs/js-overview.html
 [kotlin-native]: https://kotlinlang.org/docs/native-overview.html
