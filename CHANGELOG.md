@@ -51,21 +51,21 @@ _Release date: 2022-09-07 | Commits: [v2.1.0...v3.0.0]._
 
 - Deprecated assertions in the `io.github.kotools.assert` package (issue [#19]).
 
-## Version 2.1.0 - 2022/08/03
+## v2.1.0
+
+_Release date: 2022-08-03 | Commits: [v2.0.0...v2.1.0]._
 
 ### Added
 
-- Create and apply the `@SinceKotoolsAssert` annotation on every declaration
-  ([#16](https://github.com/kotools/assert/issues/16)).
-- Add boolean, nullability, equality and failure assertions in the
-  `kotools.assert` package ([#15](https://github.com/kotools/assert/issues/15)).
-- Add `@Test` and `@Nested` annotations
-  ([#20](https://github.com/kotools/assert/issues/20)).
+- Boolean, nullability, equality and failure assertions in the `kotools.assert`
+  package (issue [#15]).
+- The `@SinceKotoolsAssert` annotation for indicating the first version of
+  Kotools Assert where each declaration has appeared (issue [#16]).
+- Add `@Test` and `@Nested` type aliases (issue [#20]).
 
 ### Deprecated
 
-Deprecate assertions in the `io.github.kotools.assert` package
-([#15](https://github.com/kotools/assert/issues/15)).
+- Assertions in the `io.github.kotools.assert` package (issue [#15]).
 
 ## Version 2.0.0 - 2022/04/11
 
@@ -105,7 +105,10 @@ Failure assertions with `assertFails`
 - Equality assertions with `assertEquals` and `assertNotEquals`.
 - Nullability assertions with `assertNull` and `assertNotNull`.
 
+[#15]: https://github.com/kotools/assert/issues/15
+[#16]: https://github.com/kotools/assert/issues/16
 [#19]: https://github.com/kotools/assert/issues/19
+[#20]: https://github.com/kotools/assert/issues/20
 [#21]: https://github.com/kotools/assert/issues/21
 [#26]: https://github.com/kotools/assert/issues/26
 [#33]: https://github.com/kotools/assert/issues/33
@@ -116,3 +119,4 @@ Failure assertions with `assertFails`
 [v3.0.1...v3.0.2]: https://github.com/kotools/assert/compare/v3.0.1...v3.0.2
 [v3.0.0...v3.0.1]: https://github.com/kotools/assert/compare/v3.0.0...v3.0.1
 [v2.1.0...v3.0.0]: https://github.com/kotools/assert/compare/v2.1.0...v3.0.0
+[v2.0.0...v2.1.0]: https://github.com/kotools/assert/compare/v2.0.0...v2.1.0
