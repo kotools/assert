@@ -34,29 +34,22 @@ _Release date: 2022-09-09 | Commits: [v3.0.0...v3.0.1]._
 - Correct value in versioning annotations for indicating the first version of
   Kotools Assert where a given declaration has appeared (issue [#26]).
 
-## Version 3.0.0 - 2022/09/07
+## v3.0.0
 
-### Global changes
+_Release date: 2022-09-07 | Commits: [v2.1.0...v3.0.0]._
 
-#### Added
+### Added
 
-Support for JS and Native platforms
-([#21](https://github.com/kotools/assert/issues/21)).
+- Support for the following platforms: [Kotlin/JS] and
+  [Kotlin Native][kotlin-native] for Linux x64, macOS x64 and MinGW x64 systems
+  (issue [#21]).
+- Functions `assertTrue`, `assertFalse`, `assertEquals`, `assertNotEquals`,
+  `assertFails`, `assertFailsWith`, `assertNull` and `assertNotNull` for all
+  platforms (issue [#21]).
 
-#### Removed
+### Removed
 
-Deprecated assertions in the `io.github.kotools.assert` package
-([#19](https://github.com/kotools/assert/issues/19)).
-
-### All platforms
-
-#### Added
-
-The functions `assertTrue`, `assertFalse`, `assertEquals`, `assertNotEquals`,
-`assertFails`, `assertFailsWith`, `assertNull` and `assertNotNull` are now
-available on all platforms.
-These assertions were only available for the JVM platform in the previous
-version ([#21](https://github.com/kotools/assert/issues/21)).
+- Deprecated assertions in the `io.github.kotools.assert` package (issue [#19]).
 
 ## Version 2.1.0 - 2022/08/03
 
@@ -112,9 +105,14 @@ Failure assertions with `assertFails`
 - Equality assertions with `assertEquals` and `assertNotEquals`.
 - Nullability assertions with `assertNull` and `assertNotNull`.
 
+[#19]: https://github.com/kotools/assert/issues/19
+[#21]: https://github.com/kotools/assert/issues/21
 [#26]: https://github.com/kotools/assert/issues/26
 [#33]: https://github.com/kotools/assert/issues/33
 [keep-a-changelog]: https://keepachangelog.com/en
+[kotlin/js]: https://kotlinlang.org/docs/js-overview.html
+[kotlin-native]: https://kotlinlang.org/docs/native-overview.html
 [semantic-versioning]: https://semver.org
 [v3.0.1...v3.0.2]: https://github.com/kotools/assert/compare/v3.0.1...v3.0.2
 [v3.0.0...v3.0.1]: https://github.com/kotools/assert/compare/v3.0.0...v3.0.1
+[v2.1.0...v3.0.0]: https://github.com/kotools/assert/compare/v2.1.0...v3.0.0
