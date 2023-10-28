@@ -22,7 +22,8 @@ _Release date: 2022-09-10 | Commits: [v3.0.1...v3.0.2]._
 
 ### Fixed
 
-- Fix the publication of artifacts for macOS and MinGW platforms (issue [#33]).
+- Correct the publication of artifacts for macOS and MinGW platforms (issue
+  [#33]).
 
 ## v3.0.1
 
