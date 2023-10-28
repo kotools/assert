@@ -1,0 +1,66 @@
+# Copyright 2022-2023 Loïc Lamarque.
+# Use of this source code is governed by the MIT license.
+
+name: Integration
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**gradle*'
+      - '**.kt*'
+      - .github/workflows/integration.yml
+  push:
+    branches: [ main ]
+    paths:
+      - '**gradle*'
+      - '**.kt*'
+      - .github/workflows/integration.yml
+  workflow_dispatch:
+env:
+  CACHING: gradle
+  JAVA_DISTRIBUTION: temurin
+  JAVA_VERSION: 17
+jobs:
+  # ---------- Stage 1 ----------
+  validate-wrapper:
+    name: Validate Gradle wrapper
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.0.0
+      - name: Validate Gradle wrapper
+        uses: gradle/wrapper-validation-action@v1.0.6
+  # ---------- Stage 2 ----------
+  check:
+    name: Check the library
+    strategy:
+      matrix:
+        os: [ macos-latest, ubuntu-latest, windows-latest ]
+    runs-on: ${{ matrix.os }}
+    needs: validate-wrapper
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.0.0
+      - name: Setup Java & Gradle
+        uses: actions/setup-java@v3.11.0
+        with:
+          distribution: ${{ env.JAVA_DISTRIBUTION }}
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: ${{ env.CACHING }}
+      - name: Check the library
+        run: ./gradlew :check --no-daemon --quiet
+  dependencies:
+    name: Submit dependencies to GitHub
+    needs: validate-wrapper
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.0.0
+      - name: Submit dependencies to GitHub
+        uses: mikepenz/gradle-dependency-submission@v0.9.1
+        with:
+          gradle-build-configuration: allSourceSetsRuntimeDependenciesMetadata
+          fail-on-error: true
