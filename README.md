@@ -1,3 +1,8 @@
+> This project is deprecated.
+> We recommend using the [testing library from Kotlin][kotlin.test] instead.
+
+[kotlin.test]: https://kotlinlang.org/api/latest/kotlin.test
+
 # Kotools Assert
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.kotools/assert)](https://search.maven.org/artifact/io.github.kotools/assert)
